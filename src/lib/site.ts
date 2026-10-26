@@ -16,7 +16,7 @@ export const site = {
     name: "Vivek Gupta",
     designation: "Grievance Redressal Officer",
     email: "grievance@vindusholdingslimited.com",
-    phone: "7665466546",
+    phone: "+91 88008 46355",
   },
   lsps: [
     {

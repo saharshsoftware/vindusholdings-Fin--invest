@@ -13,7 +13,7 @@ export const site = {
   rbiCmsUrl: "https://cms.rbi.org.in",
   sachetUrl: "https://sachet.rbi.org.in",
   gro: {
-    name: "Sumit Rajan",
+    name: "Vivek Gupta",
     designation: "Grievance Redressal Officer",
     email: "grievance@vindusholdingslimited.com",
     phone: "7665466546",

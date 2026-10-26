@@ -165,7 +165,7 @@ export default function PrivacyPolicyPage() {
                   <>
                     Registered Office
                     <br />
-                    {site.registeredOffice}, West Bengal, India
+                    {site.registeredOffice}
                     <br />
                   </>
                 )}

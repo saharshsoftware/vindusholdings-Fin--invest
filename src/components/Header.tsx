@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import logo from "../../public/VINDUS-Holdings-Logo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -20,10 +21,10 @@ export function Header() {
           onClick={() => setMenuOpen(false)}
         >
           <Image
-            src="/VINDUS-Holdings-Logo.png"
+            src={logo}
             alt="Vindus Holdings Limited"
-            width={87}
-            height={40}
+            width={44}
+            height={44}
             className="h-11 w-auto shrink-0"
             priority
           />

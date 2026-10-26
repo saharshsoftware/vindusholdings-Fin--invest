@@ -19,9 +19,9 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/favicon.ico?v=vindus-2",
-    shortcut: "/favicon.ico?v=vindus-2",
-    apple: "/apple-icon.png?v=vindus-2",
+    icon: "/favicon.ico?v=vindus-3",
+    shortcut: "/favicon.ico?v=vindus-3",
+    apple: "/apple-icon.png?v=vindus-3",
   },
   title: {
     default: "Vindus Holdings  Limited | RBI Registered NBFC",

@@ -1,9 +1,8 @@
 export const site = {
   brandName: "Vindus Holdings  Limited",
   legalName: "Vindus Holdings Limited",
-  registeredOffice: "", // Leave empty to hide the registered office address.
-  // Previous address:
-  //   "10th Floor, Poddar Point, Block-A, 113, Park Street, Kolkata – 700016",
+  registeredOffice:
+    "46, B.B. Ganguly Street, 1st Floor, Room No. 4, Kolkata, West Bengal, India - 700012",
   gstin: "19AABCV8178N2ZE",
   rbiRegistrationNumber: "B.05.06969 dated 24 Apr 1998",
   rbiRegistration:

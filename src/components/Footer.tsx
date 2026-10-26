@@ -1,4 +1,5 @@
 import Image from "next/image";
+import logo from "../../public/VINDUS-Holdings-Logo.png";
 import Link from "next/link";
 import { Container } from "./Container";
 import { legalLinks, quickLinks, site } from "@/lib/site";
@@ -11,11 +12,11 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <Image
-                src="/VINDUS-Holdings-Logo.png"
-                alt="Vindus Holdings  Limited"
-                width={87}
-                height={40}
-                className="h-9 w-auto shrink-0 rounded-md bg-white px-2.5 py-2"
+                src={logo}
+                alt="Vindus Holdings Limited"
+                width={48}
+                height={48}
+                className="h-12 w-12 shrink-0 rounded-md bg-white"
               />
               <p className="font-display text-base font-bold text-white">
                 {site.legalName}

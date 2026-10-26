@@ -77,7 +77,7 @@ export default function ContactPage() {
           <div className="overflow-hidden rounded-2xl border border-hairline bg-surface">
             <iframe
               title="Vindus Holdings  Limited registered office location"
-              src="https://www.google.com/maps?q=10th+Floor,+Poddar+Point,+113+Park+Street,+Kolkata+700016&output=embed"
+              src={`https://www.google.com/maps?q=${encodeURIComponent(site.registeredOffice)}&output=embed`}
               className="h-full min-h-[420px] w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
